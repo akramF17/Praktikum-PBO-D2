@@ -28,7 +28,7 @@ public class BankApp {
             System.out.println("Saldo saat ini: $" + account.getBalance()); // Baris ini tidak akan tampil
         } catch(InsufficientFundsException ifex){
             System.out.println(ifex.getMessage());
-        } catch (IllegalArgumentException iaex){
+        } catch(IllegalArgumentException iaex){
             System.out.println(iaex.getMessage());
         } catch(Exception ex){
             System.out.println(ex.getMessage());
