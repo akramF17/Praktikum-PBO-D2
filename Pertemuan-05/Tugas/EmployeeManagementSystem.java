@@ -15,14 +15,12 @@ public class EmployeeManagementSystem {
 
         // DISPLAY
         // Menampilkan informasi karyawan full-time Andi
-        System.out.println("Full-Time Employee Details:");
         Andi.printInfo();
 
         // Membuat baris baru kosong
         System.out.println();
 
         // Menampilkan informasi karyawan part-time Melati
-        System.out.println("Part-Time Employee Details:");
         Melati.printInfo();
     }
 }  

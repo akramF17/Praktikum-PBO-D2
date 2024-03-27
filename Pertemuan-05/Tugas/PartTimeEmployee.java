@@ -38,6 +38,7 @@ public class PartTimeEmployee extends Employee implements WorkSchedule {
     // Prosedur ini adalah implementasi dari method abstract pada superclass Employee
     @Override
     public void printInfo(){
+        System.out.println("Part-Time Employee Details:");
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
         System.out.println("Hourly Rate: Rp" + hourlyRate);
