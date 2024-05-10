@@ -4,6 +4,8 @@
  * Deskripsi  : Main class untuk generic kupu
 */
 
+package SeparateFiles;
+
 public class Main {
     public static void main(String[] args) {
         // Kamus
